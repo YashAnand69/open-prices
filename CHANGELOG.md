@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.118.0](https://github.com/openfoodfacts/open-prices/compare/v1.117.0...v1.118.0) (2026-11-16)
+
+
+### Features
+
+* **Price tags:** API: new endpoint to create a price and link the price tag atomically ([#1547](https://github.com/openfoodfacts/open-prices/issues/1547)) ([756b9b0](https://github.com/openfoodfacts/open-prices/commit/756b9b029c34c4bfb7a795ebd714926c03f42950))
+
+
+### Bug Fixes
+
+* **Price tags:** API: also lock the price tag on update & delete ([#1552](https://github.com/openfoodfacts/open-prices/issues/1552)) ([4e13afb](https://github.com/openfoodfacts/open-prices/commit/4e13afbd8bd868897d0a09bc1250672ad1b2d467))
+* **Price tags:** API: fetch the proof with the locked price tag (the get_queryset branch never applied) ([#1553](https://github.com/openfoodfacts/open-prices/issues/1553)) ([cf78298](https://github.com/openfoodfacts/open-prices/commit/cf78298fd08ed0f6853f0f09900eacadedd6807c))
+
+
+### Documentation
+
+* **GitHub:** add a PR template (includes LLM usage disclosure) ([#1550](https://github.com/openfoodfacts/open-prices/issues/1550)) ([faadf10](https://github.com/openfoodfacts/open-prices/commit/faadf10cb3226e94d8520746bf21692c89580258))
+* **Topics:** OSM: update location creation, search & sync sections, with their limitations ([#1558](https://github.com/openfoodfacts/open-prices/issues/1558)) ([00e1126](https://github.com/openfoodfacts/open-prices/commit/00e1126b2a8a8d081b77acae02a5993647e6f5c3))
+
+
+### Technical
+
+* **CodeRabbit:** also review stacked PRs (any base branch) ([#1555](https://github.com/openfoodfacts/open-prices/issues/1555)) ([70ac281](https://github.com/openfoodfacts/open-prices/commit/70ac281de1d2bab9b74875179f1199ba72537405))
+
 ## [1.117.0](https://github.com/openfoodfacts/open-prices/compare/v1.116.0...v1.117.0) (2026-11-10)
 
 
